@@ -84,7 +84,7 @@ public class TestDemo3 extends LuceneTestCase {
         Document doc4 = new Document();
         doc4.add(newTextField("fieldname", "dog eat food", Field.Store.YES));
         iw.addDocument(doc4);
-
+        //test
       }catch(Exception e){
 
       }
